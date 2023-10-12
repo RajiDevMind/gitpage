@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,8 +8,21 @@
 body {
   background-color: grey;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   text-align: center;
   padding: 10px;
+  letter-spacing: 0.2rem;
+}
+.container {
+  padding: 5px 10px;
+  letter-spacing: 0.1rem;
+}
+.container p {
+  margin: 5px 10px;
+}
+h2,
+h4 {
+  margin-left: 10px;
 }
